@@ -1,0 +1,61 @@
+.navbar-header
+{
+	font-size: 2em;
+	color:#20c997;
+	font-style: bold;
+}
+* 
+{
+  box-sizing: border-box;
+}
+.container
+{
+	margin-left: 0px;
+}
+.container2
+{
+	margin:20px;
+}
+header
+{
+	background-color:#343a40;
+}
+#our
+{
+	color:#343a40;
+	margin-bottom: 30px;
+	font-family:Roboto;
+	text-align: center;
+	font-size:3em;
+}
+p
+{
+    color:#dc3545;
+    word-wrap: break-word;
+    border:2px;
+    background-color:  #ffc107;
+    padding:5px;
+}
+p>span
+{
+	color:black;
+	font-style: bold;
+	font-size: 2em;
+	margin-left:38%;
+}
+@media(min-width: 1200px)/*large-device*/
+{
+
+}
+@media(min-width: 992px)and(max-width: 1199px)/*medium-device*/
+{
+
+}
+@media(min-width: 792px)and(max-width: 991px)/*small-device*/
+{
+
+}
+@media(max-width: 791px)/*extra-small-device*/
+{
+
+}
