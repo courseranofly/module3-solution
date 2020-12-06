@@ -3,6 +3,7 @@
 	font-size: 2em;
 	color:#20c997;
 	font-style: bold;
+  width:100%;
 }
 * 
 {
@@ -19,6 +20,9 @@
 header
 {
 	background-color:#343a40;
+}
+h1{
+  clear:right;
 }
 #our
 {
@@ -43,6 +47,15 @@ p>span
 	font-size: 2em;
 	margin-left:38%;
 }
+button
+{
+  float:right;
+  margin-top: -35px;
+}
+li
+{
+  text-align:center;
+}
 @media(min-width: 1200px)/*large-device*/
 {
 
@@ -51,11 +64,10 @@ p>span
 {
 
 }
-@media(min-width: 792px)and(max-width: 991px)/*small-device*/
+@media(min-width: 768px)and(max-width: 991px)/*small-device*/
 {
 
 }
-@media(max-width: 791px)/*extra-small-device*/
+@media(max-width: 767px)/*extra-small-device*/
 {
-
 }
